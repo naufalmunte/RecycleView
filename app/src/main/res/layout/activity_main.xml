@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bkg"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Silahkan Pilih Menu"
+        android:gravity="center"
+        android:layout_marginTop="250dp"
+        android:textColor="#04202C"
+        android:textSize="25dp"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Hewan"
+        android:textColor="@color/white"
+        android:backgroundTint="#063852"
+        android:layout_marginHorizontal="10dp"
+        android:id="@+id/btnHewan"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Buah"
+        android:textColor="@color/white"
+        android:backgroundTint="#063852"
+        android:layout_marginHorizontal="10dp"
+        android:id="@+id/btnBuah"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Movie"
+        android:textColor="@color/white"
+        android:backgroundTint="#063852"
+        android:layout_marginHorizontal="10dp"
+        android:id="@+id/btnMovie"/>
+
+
+</LinearLayout>
